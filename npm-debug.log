@@ -1,0 +1,1361 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-red-contrib-bmp085' ]
+2 info using npm@2.15.11
+3 info using node@v4.7.3
+4 verbose install initial load of /home/pi/.node-red/package.json
+5 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/am2320/package.json
+6 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-1wire/package.json
+7 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-bigsplitter/package.json
+8 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-binary/package.json
+9 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-ds18b20-sensor/package.json
+10 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-freeboard/package.json
+11 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-gpio/package.json
+12 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-i2c/package.json
+13 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-owfs/package.json
+14 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-contrib-splitter/package.json
+15 verbose installManyTop reading scoped package data from /home/pi/.node-red/node_modules/node-red-dashboard/package.json
+16 info package.json node-red-contrib-1wire@0.0.1 No repository field.
+17 info package.json node-red-contrib-1wire@0.0.1 license should be a valid SPDX license expression
+18 info package.json node-red-contrib-ds18b20-sensor@1.2.7 license should be a valid SPDX license expression
+19 info package.json node-red-contrib-freeboard@0.0.7 No license field.
+20 info package.json node-red-contrib-splitter@0.0.16 license should be a valid SPDX license expression
+21 verbose readDependencies loading dependencies from /home/pi/.node-red/package.json
+22 silly cache add args [ 'node-red-contrib-bmp085', null ]
+23 verbose cache add spec node-red-contrib-bmp085
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'node-red-contrib-bmp085',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'node-red-contrib-bmp085',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 silly addNamed node-red-contrib-bmp085@latest
+26 verbose addNamed "latest" is being treated as a dist-tag for node-red-contrib-bmp085
+27 info addNameTag [ 'node-red-contrib-bmp085', 'latest' ]
+28 silly mapToRegistry name node-red-contrib-bmp085
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'node-red-contrib-bmp085',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'node-red-contrib-bmp085',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/node-red-contrib-bmp085
+33 verbose addNameTag registry:https://registry.npmjs.org/node-red-contrib-bmp085 not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/node-red-contrib-bmp085
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 4:02:15 PM
+37 verbose request id d911572d1b1d0542
+38 http request GET https://registry.npmjs.org/node-red-contrib-bmp085
+39 http 200 https://registry.npmjs.org/node-red-contrib-bmp085
+40 verbose headers { server: 'nginx/1.10.1',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'last-modified': 'Tue, 21 Apr 2015 22:05:29 GMT',
+40 verbose headers   etag: 'W/"5536c9a9-1bdd"',
+40 verbose headers   'content-encoding': 'gzip',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'content-length': '1834',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Tue, 21 Mar 2017 16:02:16 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   age: '52',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-ams4426-AMS',
+40 verbose headers   'x-cache': 'HIT',
+40 verbose headers   'x-cache-hits': '1',
+40 verbose headers   'x-timer': 'S1490112136.278921,VS0,VE0',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 silly get cb [ 200,
+41 silly get   { server: 'nginx/1.10.1',
+41 silly get     'content-type': 'application/json',
+41 silly get     'last-modified': 'Tue, 21 Apr 2015 22:05:29 GMT',
+41 silly get     etag: 'W/"5536c9a9-1bdd"',
+41 silly get     'content-encoding': 'gzip',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'content-length': '1834',
+41 silly get     'accept-ranges': 'bytes',
+41 silly get     date: 'Tue, 21 Mar 2017 16:02:16 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     age: '52',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-ams4426-AMS',
+41 silly get     'x-cache': 'HIT',
+41 silly get     'x-cache-hits': '1',
+41 silly get     'x-timer': 'S1490112136.278921,VS0,VE0',
+41 silly get     vary: 'Accept-Encoding' } ]
+42 verbose get saving node-red-contrib-bmp085 to /root/.npm/registry.npmjs.org/node-red-contrib-bmp085/.cache.json
+43 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+44 silly addNameTag next cb for node-red-contrib-bmp085 with tag latest
+45 silly addNamed node-red-contrib-bmp085@0.1.6
+46 verbose addNamed "0.1.6" is a plain semver version for node-red-contrib-bmp085
+47 silly mapToRegistry name node-red-contrib-bmp085
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'node-red-contrib-bmp085',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   name: 'node-red-contrib-bmp085',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/node-red-contrib-bmp085
+52 verbose addRemoteTarball https://registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz not in flight; adding
+53 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz',
+53 verbose addRemoteTarball   '2d9404d6c7453561f2eb79a8d2fd053264121f77' ]
+54 info retry fetch attempt 1 at 4:02:16 PM
+55 info attempt registry request try #1 at 4:02:16 PM
+56 http fetch GET https://registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz
+57 http fetch 200 https://registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz
+58 silly fetchAndShaCheck shasum 2d9404d6c7453561f2eb79a8d2fd053264121f77
+59 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz not in flight; adding
+60 verbose addTmpTarball already have metadata; skipping unpack for node-red-contrib-bmp085@0.1.6
+61 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+62 silly cache afterAdd node-red-contrib-bmp085@0.1.6
+63 verbose afterAdd /root/.npm/node-red-contrib-bmp085/0.1.6/package/package.json not in flight; writing
+64 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+65 verbose afterAdd /root/.npm/node-red-contrib-bmp085/0.1.6/package/package.json written
+66 silly install resolved [ { name: 'node-red-contrib-bmp085',
+66 silly install resolved     version: '0.1.6',
+66 silly install resolved     description: 'Receive data from Bosch BMP085 barometer sensor with Node-RED',
+66 silly install resolved     repository:
+66 silly install resolved      { type: 'git',
+66 silly install resolved        url: 'https://github.com/mrkrasser/node-red-contrib-bmp085.git' },
+66 silly install resolved     keywords: [ 'node-red', 'bmp085' ],
+66 silly install resolved     author: { name: 'Sergey Krasnov', email: 'me@sergeykrasnov.ru' },
+66 silly install resolved     license: 'Apache',
+66 silly install resolved     bugs: { url: 'https://github.com/mrkrasser/node-red-contrib-bmp085/issues' },
+66 silly install resolved     'node-red': { nodes: [Object] },
+66 silly install resolved     dependencies: { bmp085: '~0.3.2' },
+66 silly install resolved     gitHead: 'a1efe3994cb9291ed2ae136604a0eab64de65877',
+66 silly install resolved     homepage: 'https://github.com/mrkrasser/node-red-contrib-bmp085',
+66 silly install resolved     _id: 'node-red-contrib-bmp085@0.1.6',
+66 silly install resolved     scripts: {},
+66 silly install resolved     _shasum: '2d9404d6c7453561f2eb79a8d2fd053264121f77',
+66 silly install resolved     _from: 'node-red-contrib-bmp085@latest',
+66 silly install resolved     _npmVersion: '1.4.28',
+66 silly install resolved     _npmUser: { name: 'mrkrasser', email: 'mrkrasser@gmail.com' },
+66 silly install resolved     maintainers: [ [Object] ],
+66 silly install resolved     dist:
+66 silly install resolved      { shasum: '2d9404d6c7453561f2eb79a8d2fd053264121f77',
+66 silly install resolved        tarball: 'https://registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz' },
+66 silly install resolved     directories: {},
+66 silly install resolved     _resolved: 'https://registry.npmjs.org/node-red-contrib-bmp085/-/node-red-contrib-bmp085-0.1.6.tgz' } ]
+67 info install node-red-contrib-bmp085@0.1.6 into /home/pi/.node-red
+68 info installOne node-red-contrib-bmp085@0.1.6
+69 verbose installOne of node-red-contrib-bmp085 to /home/pi/.node-red not in flight; installing
+70 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+71 verbose lock using /root/.npm/_locks/node-red-contrib-bmp085-c10ac6e0fc4d700e.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+72 silly install write writing node-red-contrib-bmp085 0.1.6 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+73 verbose unbuild node_modules/node-red-contrib-bmp085
+74 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085 is being purged from base /home/pi/.node-red
+75 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+76 verbose tar unpack /root/.npm/node-red-contrib-bmp085/0.1.6/package.tgz
+77 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+78 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085 is being purged
+79 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm extractEntry 73-bmp085.js
+83 silly gunzTarPerm extractEntry 73-bmp085.html
+84 silly gunzTarPerm extractEntry Readme.md
+85 silly gunzTarPerm extractEntry icons/chip.png
+86 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/package.json
+87 info preinstall node-red-contrib-bmp085@0.1.6
+88 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/package.json
+89 silly prepareForInstallMany adding bmp085@~0.3.2 from node-red-contrib-bmp085 dependencies
+90 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/package.json
+91 silly cache add args [ 'bmp085@~0.3.2', null ]
+92 verbose cache add spec bmp085@~0.3.2
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'bmp085@~0.3.2',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'bmp085',
+93 silly cache add   rawSpec: '~0.3.2',
+93 silly cache add   spec: '>=0.3.2 <0.4.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed bmp085@>=0.3.2 <0.4.0
+95 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for bmp085
+96 silly addNameRange { name: 'bmp085', range: '>=0.3.2 <0.4.0', hasData: false }
+97 silly mapToRegistry name bmp085
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'bmp085',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   name: 'bmp085',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/bmp085
+102 verbose addNameRange registry:https://registry.npmjs.org/bmp085 not in flight; fetching
+103 verbose request uri https://registry.npmjs.org/bmp085
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 4:02:16 PM
+106 http request GET https://registry.npmjs.org/bmp085
+107 http 200 https://registry.npmjs.org/bmp085
+108 verbose headers { server: 'nginx/1.10.1',
+108 verbose headers   'content-type': 'application/json',
+108 verbose headers   'last-modified': 'Thu, 28 Jan 2016 21:03:24 GMT',
+108 verbose headers   etag: 'W/"56aa821c-1890"',
+108 verbose headers   'content-encoding': 'gzip',
+108 verbose headers   'cache-control': 'max-age=300',
+108 verbose headers   'content-length': '1536',
+108 verbose headers   'accept-ranges': 'bytes',
+108 verbose headers   date: 'Tue, 21 Mar 2017 16:02:16 GMT',
+108 verbose headers   via: '1.1 varnish',
+108 verbose headers   age: '52',
+108 verbose headers   connection: 'keep-alive',
+108 verbose headers   'x-served-by': 'cache-ams4426-AMS',
+108 verbose headers   'x-cache': 'HIT',
+108 verbose headers   'x-cache-hits': '1',
+108 verbose headers   'x-timer': 'S1490112136.894591,VS0,VE0',
+108 verbose headers   vary: 'Accept-Encoding' }
+109 silly get cb [ 200,
+109 silly get   { server: 'nginx/1.10.1',
+109 silly get     'content-type': 'application/json',
+109 silly get     'last-modified': 'Thu, 28 Jan 2016 21:03:24 GMT',
+109 silly get     etag: 'W/"56aa821c-1890"',
+109 silly get     'content-encoding': 'gzip',
+109 silly get     'cache-control': 'max-age=300',
+109 silly get     'content-length': '1536',
+109 silly get     'accept-ranges': 'bytes',
+109 silly get     date: 'Tue, 21 Mar 2017 16:02:16 GMT',
+109 silly get     via: '1.1 varnish',
+109 silly get     age: '52',
+109 silly get     connection: 'keep-alive',
+109 silly get     'x-served-by': 'cache-ams4426-AMS',
+109 silly get     'x-cache': 'HIT',
+109 silly get     'x-cache-hits': '1',
+109 silly get     'x-timer': 'S1490112136.894591,VS0,VE0',
+109 silly get     vary: 'Accept-Encoding' } ]
+110 verbose get saving bmp085 to /root/.npm/registry.npmjs.org/bmp085/.cache.json
+111 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+112 silly addNameRange number 2 { name: 'bmp085', range: '>=0.3.2 <0.4.0', hasData: true }
+113 silly addNameRange versions [ 'bmp085',
+113 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.3.1', '0.3.2', '0.4.0' ] ]
+114 silly addNamed bmp085@0.3.2
+115 verbose addNamed "0.3.2" is a plain semver version for bmp085
+116 silly mapToRegistry name bmp085
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'bmp085',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   name: 'bmp085',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/bmp085
+121 verbose addRemoteTarball https://registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz not in flight; adding
+122 verbose addRemoteTarball [ 'https://registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz',
+122 verbose addRemoteTarball   'a89cd4e90728acd48cea7bec86ffeda5baf6856e' ]
+123 info retry fetch attempt 1 at 4:02:16 PM
+124 info attempt registry request try #1 at 4:02:16 PM
+125 http fetch GET https://registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz
+126 http fetch 200 https://registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz
+127 silly fetchAndShaCheck shasum a89cd4e90728acd48cea7bec86ffeda5baf6856e
+128 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz not in flight; adding
+129 verbose addTmpTarball already have metadata; skipping unpack for bmp085@0.3.2
+130 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+131 silly cache afterAdd bmp085@0.3.2
+132 verbose afterAdd /root/.npm/bmp085/0.3.2/package/package.json not in flight; writing
+133 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+134 verbose afterAdd /root/.npm/bmp085/0.3.2/package/package.json written
+135 silly install resolved [ { name: 'bmp085',
+135 silly install resolved     version: '0.3.2',
+135 silly install resolved     description: 'Simple module for reading data from a Bosch BMP085 barometer.',
+135 silly install resolved     main: 'bmp085.js',
+135 silly install resolved     author: { name: 'Ricco Førgaard' },
+135 silly install resolved     license: 'MIT',
+135 silly install resolved     repository: { type: 'git', url: 'https://github.com/fiskeben/bmp085.git' },
+135 silly install resolved     dependencies: { i2c: '~0.1.4', underscore: '~1.5.2' },
+135 silly install resolved     bugs: { url: 'https://github.com/fiskeben/bmp085/issues' },
+135 silly install resolved     _id: 'bmp085@0.3.2',
+135 silly install resolved     dist:
+135 silly install resolved      { shasum: 'a89cd4e90728acd48cea7bec86ffeda5baf6856e',
+135 silly install resolved        tarball: 'https://registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz' },
+135 silly install resolved     _from: 'bmp085@>=0.3.2 <0.4.0',
+135 silly install resolved     _npmVersion: '1.3.4',
+135 silly install resolved     _npmUser: { name: 'fiskeben', email: 'ricco@fiskeben.dk' },
+135 silly install resolved     maintainers: [ [Object] ],
+135 silly install resolved     directories: {},
+135 silly install resolved     _shasum: 'a89cd4e90728acd48cea7bec86ffeda5baf6856e',
+135 silly install resolved     _resolved: 'https://registry.npmjs.org/bmp085/-/bmp085-0.3.2.tgz' } ]
+136 info install bmp085@0.3.2 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+137 info installOne bmp085@0.3.2
+138 verbose installOne of bmp085 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085 not in flight; installing
+139 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+140 verbose lock using /root/.npm/_locks/bmp085-66caf4e8a875c222.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+141 silly install write writing bmp085 0.3.2 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+142 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085
+143 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085 is being purged from base /home/pi/.node-red
+144 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+145 verbose tar unpack /root/.npm/bmp085/0.3.2/package.tgz
+146 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+147 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085 is being purged
+148 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm extractEntry .npmignore
+152 silly gunzTarPerm extractEntry README.md
+153 silly gunzTarPerm extractEntry bmp085.js
+154 silly gunzTarPerm extractEntry test.js
+155 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/package.json
+156 info preinstall bmp085@0.3.2
+157 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/package.json
+158 silly prepareForInstallMany adding i2c@~0.1.4 from bmp085 dependencies
+159 silly prepareForInstallMany adding underscore@~1.5.2 from bmp085 dependencies
+160 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/package.json
+161 silly cache add args [ 'i2c@~0.1.4', null ]
+162 verbose cache add spec i2c@~0.1.4
+163 silly cache add args [ 'underscore@~1.5.2', null ]
+164 verbose cache add spec underscore@~1.5.2
+165 silly cache add parsed spec Result {
+165 silly cache add   raw: 'i2c@~0.1.4',
+165 silly cache add   scope: null,
+165 silly cache add   name: 'i2c',
+165 silly cache add   rawSpec: '~0.1.4',
+165 silly cache add   spec: '>=0.1.4 <0.2.0',
+165 silly cache add   type: 'range' }
+166 silly addNamed i2c@>=0.1.4 <0.2.0
+167 verbose addNamed ">=0.1.4 <0.2.0" is a valid semver range for i2c
+168 silly addNameRange { name: 'i2c', range: '>=0.1.4 <0.2.0', hasData: false }
+169 silly mapToRegistry name i2c
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: 'i2c',
+172 silly mapToRegistry   scope: null,
+172 silly mapToRegistry   name: 'i2c',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri https://registry.npmjs.org/i2c
+174 verbose addNameRange registry:https://registry.npmjs.org/i2c not in flight; fetching
+175 silly cache add parsed spec Result {
+175 silly cache add   raw: 'underscore@~1.5.2',
+175 silly cache add   scope: null,
+175 silly cache add   name: 'underscore',
+175 silly cache add   rawSpec: '~1.5.2',
+175 silly cache add   spec: '>=1.5.2 <1.6.0',
+175 silly cache add   type: 'range' }
+176 silly addNamed underscore@>=1.5.2 <1.6.0
+177 verbose addNamed ">=1.5.2 <1.6.0" is a valid semver range for underscore
+178 silly addNameRange { name: 'underscore', range: '>=1.5.2 <1.6.0', hasData: false }
+179 silly mapToRegistry name underscore
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'underscore',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   name: 'underscore',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag' }
+183 silly mapToRegistry uri https://registry.npmjs.org/underscore
+184 verbose addNameRange registry:https://registry.npmjs.org/underscore not in flight; fetching
+185 verbose request uri https://registry.npmjs.org/i2c
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 4:02:17 PM
+188 http request GET https://registry.npmjs.org/i2c
+189 verbose request uri https://registry.npmjs.org/underscore
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 4:02:17 PM
+192 http request GET https://registry.npmjs.org/underscore
+193 http 200 https://registry.npmjs.org/i2c
+194 verbose headers { server: 'nginx/1.10.1',
+194 verbose headers   'content-type': 'application/json',
+194 verbose headers   'last-modified': 'Wed, 15 Jun 2016 17:00:43 GMT',
+194 verbose headers   etag: 'W/"576189bb-429e"',
+194 verbose headers   'content-encoding': 'gzip',
+194 verbose headers   'cache-control': 'max-age=300',
+194 verbose headers   'content-length': '3049',
+194 verbose headers   'accept-ranges': 'bytes',
+194 verbose headers   date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+194 verbose headers   via: '1.1 varnish',
+194 verbose headers   age: '52',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'x-served-by': 'cache-ams4426-AMS',
+194 verbose headers   'x-cache': 'HIT',
+194 verbose headers   'x-cache-hits': '1',
+194 verbose headers   'x-timer': 'S1490112137.219253,VS0,VE0',
+194 verbose headers   vary: 'Accept-Encoding' }
+195 silly get cb [ 200,
+195 silly get   { server: 'nginx/1.10.1',
+195 silly get     'content-type': 'application/json',
+195 silly get     'last-modified': 'Wed, 15 Jun 2016 17:00:43 GMT',
+195 silly get     etag: 'W/"576189bb-429e"',
+195 silly get     'content-encoding': 'gzip',
+195 silly get     'cache-control': 'max-age=300',
+195 silly get     'content-length': '3049',
+195 silly get     'accept-ranges': 'bytes',
+195 silly get     date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     age: '52',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-ams4426-AMS',
+195 silly get     'x-cache': 'HIT',
+195 silly get     'x-cache-hits': '1',
+195 silly get     'x-timer': 'S1490112137.219253,VS0,VE0',
+195 silly get     vary: 'Accept-Encoding' } ]
+196 verbose get saving i2c to /root/.npm/registry.npmjs.org/i2c/.cache.json
+197 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+198 silly addNameRange number 2 { name: 'i2c', range: '>=0.1.4 <0.2.0', hasData: true }
+199 silly addNameRange versions [ 'i2c',
+199 silly addNameRange   [ '0.0.1',
+199 silly addNameRange     '0.0.2',
+199 silly addNameRange     '0.0.3',
+199 silly addNameRange     '0.0.4',
+199 silly addNameRange     '0.0.5',
+199 silly addNameRange     '0.1.0',
+199 silly addNameRange     '0.1.1',
+199 silly addNameRange     '0.1.2',
+199 silly addNameRange     '0.1.3',
+199 silly addNameRange     '0.1.4',
+199 silly addNameRange     '0.1.5',
+199 silly addNameRange     '0.1.6',
+199 silly addNameRange     '0.1.7',
+199 silly addNameRange     '0.1.8',
+199 silly addNameRange     '0.2.0',
+199 silly addNameRange     '0.2.1',
+199 silly addNameRange     '0.2.3' ] ]
+200 silly addNamed i2c@0.1.8
+201 verbose addNamed "0.1.8" is a plain semver version for i2c
+202 silly mapToRegistry name i2c
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry data Result {
+205 silly mapToRegistry   raw: 'i2c',
+205 silly mapToRegistry   scope: null,
+205 silly mapToRegistry   name: 'i2c',
+205 silly mapToRegistry   rawSpec: '',
+205 silly mapToRegistry   spec: 'latest',
+205 silly mapToRegistry   type: 'tag' }
+206 silly mapToRegistry uri https://registry.npmjs.org/i2c
+207 verbose addRemoteTarball https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz not in flight; adding
+208 verbose addRemoteTarball [ 'https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz',
+208 verbose addRemoteTarball   '551a582ed48af3d78165c932b0280b3c02f67701' ]
+209 info retry fetch attempt 1 at 4:02:17 PM
+210 info attempt registry request try #1 at 4:02:17 PM
+211 http fetch GET https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+212 http fetch 200 https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz
+213 silly fetchAndShaCheck shasum 551a582ed48af3d78165c932b0280b3c02f67701
+214 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/i2c/-/i2c-0.1.8.tgz not in flight; adding
+215 verbose addTmpTarball already have metadata; skipping unpack for i2c@0.1.8
+216 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+217 silly cache afterAdd i2c@0.1.8
+218 verbose afterAdd /root/.npm/i2c/0.1.8/package/package.json not in flight; writing
+219 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+220 verbose afterAdd /root/.npm/i2c/0.1.8/package/package.json written
+221 http 200 https://registry.npmjs.org/underscore
+222 verbose headers { server: 'nginx/1.10.1',
+222 verbose headers   'content-type': 'application/json',
+222 verbose headers   'last-modified': 'Mon, 20 Mar 2017 19:15:28 GMT',
+222 verbose headers   etag: 'W/"58d02a50-aca1"',
+222 verbose headers   'content-encoding': 'gzip',
+222 verbose headers   'cache-control': 'max-age=300',
+222 verbose headers   'content-length': '7284',
+222 verbose headers   'accept-ranges': 'bytes',
+222 verbose headers   date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+222 verbose headers   via: '1.1 varnish',
+222 verbose headers   age: '152',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'x-served-by': 'cache-hhn1549-HHN',
+222 verbose headers   'x-cache': 'HIT',
+222 verbose headers   'x-cache-hits': '11',
+222 verbose headers   'x-timer': 'S1490112137.385467,VS0,VE0',
+222 verbose headers   vary: 'Accept-Encoding' }
+223 silly get cb [ 200,
+223 silly get   { server: 'nginx/1.10.1',
+223 silly get     'content-type': 'application/json',
+223 silly get     'last-modified': 'Mon, 20 Mar 2017 19:15:28 GMT',
+223 silly get     etag: 'W/"58d02a50-aca1"',
+223 silly get     'content-encoding': 'gzip',
+223 silly get     'cache-control': 'max-age=300',
+223 silly get     'content-length': '7284',
+223 silly get     'accept-ranges': 'bytes',
+223 silly get     date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+223 silly get     via: '1.1 varnish',
+223 silly get     age: '152',
+223 silly get     connection: 'keep-alive',
+223 silly get     'x-served-by': 'cache-hhn1549-HHN',
+223 silly get     'x-cache': 'HIT',
+223 silly get     'x-cache-hits': '11',
+223 silly get     'x-timer': 'S1490112137.385467,VS0,VE0',
+223 silly get     vary: 'Accept-Encoding' } ]
+224 verbose get saving underscore to /root/.npm/registry.npmjs.org/underscore/.cache.json
+225 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+226 silly addNameRange number 2 { name: 'underscore', range: '>=1.5.2 <1.6.0', hasData: true }
+227 silly addNameRange versions [ 'underscore',
+227 silly addNameRange   [ '1.0.3',
+227 silly addNameRange     '1.0.4',
+227 silly addNameRange     '1.1.0',
+227 silly addNameRange     '1.1.1',
+227 silly addNameRange     '1.1.2',
+227 silly addNameRange     '1.1.3',
+227 silly addNameRange     '1.1.4',
+227 silly addNameRange     '1.1.5',
+227 silly addNameRange     '1.1.6',
+227 silly addNameRange     '1.1.7',
+227 silly addNameRange     '1.2.0',
+227 silly addNameRange     '1.2.1',
+227 silly addNameRange     '1.2.2',
+227 silly addNameRange     '1.2.3',
+227 silly addNameRange     '1.2.4',
+227 silly addNameRange     '1.3.0',
+227 silly addNameRange     '1.3.1',
+227 silly addNameRange     '1.3.2',
+227 silly addNameRange     '1.3.3',
+227 silly addNameRange     '1.4.0',
+227 silly addNameRange     '1.4.1',
+227 silly addNameRange     '1.4.2',
+227 silly addNameRange     '1.4.3',
+227 silly addNameRange     '1.4.4',
+227 silly addNameRange     '1.5.0',
+227 silly addNameRange     '1.5.1',
+227 silly addNameRange     '1.5.2',
+227 silly addNameRange     '1.6.0',
+227 silly addNameRange     '1.7.0',
+227 silly addNameRange     '1.8.0',
+227 silly addNameRange     '1.8.1',
+227 silly addNameRange     '1.8.2',
+227 silly addNameRange     '1.8.3' ] ]
+228 silly addNamed underscore@1.5.2
+229 verbose addNamed "1.5.2" is a plain semver version for underscore
+230 silly mapToRegistry name underscore
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry data Result {
+233 silly mapToRegistry   raw: 'underscore',
+233 silly mapToRegistry   scope: null,
+233 silly mapToRegistry   name: 'underscore',
+233 silly mapToRegistry   rawSpec: '',
+233 silly mapToRegistry   spec: 'latest',
+233 silly mapToRegistry   type: 'tag' }
+234 silly mapToRegistry uri https://registry.npmjs.org/underscore
+235 verbose addRemoteTarball https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz not in flight; adding
+236 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz',
+236 verbose addRemoteTarball   '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08' ]
+237 info retry fetch attempt 1 at 4:02:17 PM
+238 info attempt registry request try #1 at 4:02:17 PM
+239 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+240 http fetch 200 https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz
+241 silly fetchAndShaCheck shasum 1335c5e4f5e6d33bbb4b006ba8c86a00f556de08
+242 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/underscore/-/underscore-1.5.2.tgz not in flight; adding
+243 verbose addTmpTarball already have metadata; skipping unpack for underscore@1.5.2
+244 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+245 silly cache afterAdd underscore@1.5.2
+246 verbose afterAdd /root/.npm/underscore/1.5.2/package/package.json not in flight; writing
+247 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+248 verbose afterAdd /root/.npm/underscore/1.5.2/package/package.json written
+249 silly install resolved [ { name: 'i2c',
+249 silly install resolved     version: '0.1.8',
+249 silly install resolved     description: 'Native bindings for i2c-dev. Plays well with Raspberry Pi and BeagleBone.',
+249 silly install resolved     main: 'main.js',
+249 silly install resolved     author: { name: 'Kelly Korevec' },
+249 silly install resolved     repository: { type: 'git', url: 'http://github.com/korevec/node-i2c.git' },
+249 silly install resolved     license: 'BSD',
+249 silly install resolved     dependencies:
+249 silly install resolved      { bindings: '~1.1.0',
+249 silly install resolved        underscore: '1.2.4',
+249 silly install resolved        'coffee-script': '1.3.3',
+249 silly install resolved        repl: '0.1.3' },
+249 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+249 silly install resolved     gypfile: true,
+249 silly install resolved     bugs: { url: 'https://github.com/korevec/node-i2c/issues' },
+249 silly install resolved     homepage: 'https://github.com/korevec/node-i2c',
+249 silly install resolved     _id: 'i2c@0.1.8',
+249 silly install resolved     dist:
+249 silly install resolved      { shasum: '551a582ed48af3d78165c932b0280b3c02f67701',
+249 silly install resolved        tarball: 'https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz' },
+249 silly install resolved     _from: 'i2c@>=0.1.4 <0.2.0',
+249 silly install resolved     _npmVersion: '1.3.14',
+249 silly install resolved     _npmUser: { name: 'kelly', email: 'korevec@gmail.com' },
+249 silly install resolved     maintainers: [ [Object] ],
+249 silly install resolved     directories: {},
+249 silly install resolved     _shasum: '551a582ed48af3d78165c932b0280b3c02f67701',
+249 silly install resolved     _resolved: 'https://registry.npmjs.org/i2c/-/i2c-0.1.8.tgz' },
+249 silly install resolved   { name: 'underscore',
+249 silly install resolved     description: 'JavaScript\'s functional programming helper library.',
+249 silly install resolved     homepage: 'http://underscorejs.org',
+249 silly install resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+249 silly install resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+249 silly install resolved     repository:
+249 silly install resolved      { type: 'git',
+249 silly install resolved        url: 'git://github.com/jashkenas/underscore.git' },
+249 silly install resolved     main: 'underscore.js',
+249 silly install resolved     version: '1.5.2',
+249 silly install resolved     devDependencies: { phantomjs: '1.9.0-1' },
+249 silly install resolved     scripts: { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true' },
+249 silly install resolved     licenses: [ [Object] ],
+249 silly install resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+249 silly install resolved     bugs: { url: 'https://github.com/jashkenas/underscore/issues' },
+249 silly install resolved     _id: 'underscore@1.5.2',
+249 silly install resolved     dist:
+249 silly install resolved      { shasum: '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08',
+249 silly install resolved        tarball: 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz' },
+249 silly install resolved     _from: 'underscore@>=1.5.2 <1.6.0',
+249 silly install resolved     _npmVersion: '1.3.5',
+249 silly install resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+249 silly install resolved     maintainers: [ [Object] ],
+249 silly install resolved     directories: {},
+249 silly install resolved     _shasum: '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08',
+249 silly install resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz' } ]
+250 info install i2c@0.1.8 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+251 info install underscore@1.5.2 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+252 info installOne i2c@0.1.8
+253 verbose installOne of i2c to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085 not in flight; installing
+254 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+255 info installOne underscore@1.5.2
+256 verbose installOne of underscore to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085 not in flight; installing
+257 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+258 verbose lock using /root/.npm/_locks/i2c-8a95a095e67f3e08.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+259 silly install write writing i2c 0.1.8 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+260 verbose lock using /root/.npm/_locks/underscore-f21cd0e6ee136496.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+261 silly install write writing underscore 1.5.2 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+262 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+263 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+264 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c is being purged from base /home/pi/.node-red
+265 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+266 verbose tar unpack /root/.npm/i2c/0.1.8/package.tgz
+267 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+268 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c is being purged
+269 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+270 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore is being purged from base /home/pi/.node-red
+271 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+272 silly gunzTarPerm modes [ '755', '644' ]
+273 verbose tar unpack /root/.npm/underscore/1.5.2/package.tgz
+274 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+275 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore is being purged
+276 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+277 silly gunzTarPerm modes [ '755', '644' ]
+278 silly gunzTarPerm extractEntry package.json
+279 silly gunzTarPerm extractEntry package.json
+280 silly gunzTarPerm extractEntry .npmignore
+281 silly gunzTarPerm extractEntry README.md
+282 silly gunzTarPerm extractEntry README.md
+283 silly gunzTarPerm extractEntry LICENSE
+284 silly gunzTarPerm extractEntry LICENSE
+285 silly gunzTarPerm extractEntry main.js
+286 silly gunzTarPerm extractEntry underscore-min.js
+287 silly gunzTarPerm extractEntry underscore.js
+288 silly gunzTarPerm extractEntry binding.gyp
+289 silly gunzTarPerm extractEntry examples/accelerometer/accel.coffee
+290 silly gunzTarPerm extractEntry examples/blinkm/blinkm.coffee
+291 silly gunzTarPerm extractEntry lib/i2c.coffee
+292 silly gunzTarPerm extractEntry src/i2c-dev.c
+293 silly gunzTarPerm extractEntry src/i2c-dev.h
+294 silly gunzTarPerm extractEntry src/i2c.cc
+295 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore/package.json
+296 info preinstall underscore@1.5.2
+297 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore/package.json
+298 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore/package.json
+299 silly install resolved []
+300 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+301 info build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+302 info linkStuff underscore@1.5.2
+303 silly linkStuff underscore@1.5.2 has /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules as its parent node_modules
+304 verbose linkBins underscore@1.5.2
+305 verbose linkMans underscore@1.5.2
+306 verbose rebuildBundles underscore@1.5.2
+307 info install underscore@1.5.2
+308 info postinstall underscore@1.5.2
+309 verbose unlock done using /root/.npm/_locks/underscore-f21cd0e6ee136496.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/underscore
+310 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/package.json
+311 info preinstall i2c@0.1.8
+312 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/package.json
+313 silly prepareForInstallMany adding bindings@~1.1.0 from i2c dependencies
+314 silly prepareForInstallMany adding underscore@1.2.4 from i2c dependencies
+315 silly prepareForInstallMany adding coffee-script@1.3.3 from i2c dependencies
+316 silly prepareForInstallMany adding repl@0.1.3 from i2c dependencies
+317 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/package.json
+318 silly cache add args [ 'coffee-script@1.3.3', null ]
+319 verbose cache add spec coffee-script@1.3.3
+320 silly cache add parsed spec Result {
+320 silly cache add   raw: 'coffee-script@1.3.3',
+320 silly cache add   scope: null,
+320 silly cache add   name: 'coffee-script',
+320 silly cache add   rawSpec: '1.3.3',
+320 silly cache add   spec: '1.3.3',
+320 silly cache add   type: 'version' }
+321 silly addNamed coffee-script@1.3.3
+322 verbose addNamed "1.3.3" is a plain semver version for coffee-script
+323 silly mapToRegistry name coffee-script
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry https://registry.npmjs.org/
+326 silly mapToRegistry data Result {
+326 silly mapToRegistry   raw: 'coffee-script',
+326 silly mapToRegistry   scope: null,
+326 silly mapToRegistry   name: 'coffee-script',
+326 silly mapToRegistry   rawSpec: '',
+326 silly mapToRegistry   spec: 'latest',
+326 silly mapToRegistry   type: 'tag' }
+327 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+328 verbose addNameVersion registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+329 silly cache add args [ 'repl@0.1.3', null ]
+330 verbose cache add spec repl@0.1.3
+331 silly cache add parsed spec Result {
+331 silly cache add   raw: 'repl@0.1.3',
+331 silly cache add   scope: null,
+331 silly cache add   name: 'repl',
+331 silly cache add   rawSpec: '0.1.3',
+331 silly cache add   spec: '0.1.3',
+331 silly cache add   type: 'version' }
+332 silly addNamed repl@0.1.3
+333 verbose addNamed "0.1.3" is a plain semver version for repl
+334 silly mapToRegistry name repl
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry data Result {
+337 silly mapToRegistry   raw: 'repl',
+337 silly mapToRegistry   scope: null,
+337 silly mapToRegistry   name: 'repl',
+337 silly mapToRegistry   rawSpec: '',
+337 silly mapToRegistry   spec: 'latest',
+337 silly mapToRegistry   type: 'tag' }
+338 silly mapToRegistry uri https://registry.npmjs.org/repl
+339 verbose addNameVersion registry:https://registry.npmjs.org/repl not in flight; fetching
+340 silly cache add args [ 'bindings@~1.1.0', null ]
+341 verbose cache add spec bindings@~1.1.0
+342 silly cache add parsed spec Result {
+342 silly cache add   raw: 'bindings@~1.1.0',
+342 silly cache add   scope: null,
+342 silly cache add   name: 'bindings',
+342 silly cache add   rawSpec: '~1.1.0',
+342 silly cache add   spec: '>=1.1.0 <1.2.0',
+342 silly cache add   type: 'range' }
+343 silly addNamed bindings@>=1.1.0 <1.2.0
+344 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for bindings
+345 silly addNameRange { name: 'bindings', range: '>=1.1.0 <1.2.0', hasData: false }
+346 silly mapToRegistry name bindings
+347 silly mapToRegistry using default registry
+348 silly mapToRegistry registry https://registry.npmjs.org/
+349 silly mapToRegistry data Result {
+349 silly mapToRegistry   raw: 'bindings',
+349 silly mapToRegistry   scope: null,
+349 silly mapToRegistry   name: 'bindings',
+349 silly mapToRegistry   rawSpec: '',
+349 silly mapToRegistry   spec: 'latest',
+349 silly mapToRegistry   type: 'tag' }
+350 silly mapToRegistry uri https://registry.npmjs.org/bindings
+351 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+352 silly cache add args [ 'underscore@1.2.4', null ]
+353 verbose cache add spec underscore@1.2.4
+354 silly cache add parsed spec Result {
+354 silly cache add   raw: 'underscore@1.2.4',
+354 silly cache add   scope: null,
+354 silly cache add   name: 'underscore',
+354 silly cache add   rawSpec: '1.2.4',
+354 silly cache add   spec: '1.2.4',
+354 silly cache add   type: 'version' }
+355 silly addNamed underscore@1.2.4
+356 verbose addNamed "1.2.4" is a plain semver version for underscore
+357 silly mapToRegistry name underscore
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry data Result {
+360 silly mapToRegistry   raw: 'underscore',
+360 silly mapToRegistry   scope: null,
+360 silly mapToRegistry   name: 'underscore',
+360 silly mapToRegistry   rawSpec: '',
+360 silly mapToRegistry   spec: 'latest',
+360 silly mapToRegistry   type: 'tag' }
+361 silly mapToRegistry uri https://registry.npmjs.org/underscore
+362 verbose addNameVersion registry:https://registry.npmjs.org/underscore not in flight; fetching
+363 verbose request uri https://registry.npmjs.org/coffee-script
+364 verbose request no auth needed
+365 info attempt registry request try #1 at 4:02:17 PM
+366 http request GET https://registry.npmjs.org/coffee-script
+367 verbose request uri https://registry.npmjs.org/repl
+368 verbose request no auth needed
+369 info attempt registry request try #1 at 4:02:17 PM
+370 http request GET https://registry.npmjs.org/repl
+371 verbose get https://registry.npmjs.org/underscore not expired, no request
+372 silly mapToRegistry name underscore
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry data Result {
+375 silly mapToRegistry   raw: 'underscore',
+375 silly mapToRegistry   scope: null,
+375 silly mapToRegistry   name: 'underscore',
+375 silly mapToRegistry   rawSpec: '',
+375 silly mapToRegistry   spec: 'latest',
+375 silly mapToRegistry   type: 'tag' }
+376 silly mapToRegistry uri https://registry.npmjs.org/underscore
+377 verbose addRemoteTarball https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz not in flight; adding
+378 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz',
+378 verbose addRemoteTarball   'e8da6241aa06f64df2473bb2590b8c17c84c3c7e' ]
+379 verbose request uri https://registry.npmjs.org/bindings
+380 verbose request no auth needed
+381 info attempt registry request try #1 at 4:02:17 PM
+382 verbose etag W/"580645d3-46f7"
+383 verbose lastModified Tue, 18 Oct 2016 15:54:59 GMT
+384 http request GET https://registry.npmjs.org/bindings
+385 info retry fetch attempt 1 at 4:02:17 PM
+386 info attempt registry request try #1 at 4:02:17 PM
+387 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+388 http 200 https://registry.npmjs.org/repl
+389 verbose headers { server: 'nginx/1.10.1',
+389 verbose headers   'content-type': 'application/json',
+389 verbose headers   'last-modified': 'Thu, 02 Mar 2017 07:54:28 GMT',
+389 verbose headers   etag: 'W/"58b7cfb4-d2f"',
+389 verbose headers   'content-encoding': 'gzip',
+389 verbose headers   'cache-control': 'max-age=300',
+389 verbose headers   'content-length': '859',
+389 verbose headers   'accept-ranges': 'bytes',
+389 verbose headers   date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+389 verbose headers   via: '1.1 varnish',
+389 verbose headers   age: '52',
+389 verbose headers   connection: 'keep-alive',
+389 verbose headers   'x-served-by': 'cache-ams4426-AMS',
+389 verbose headers   'x-cache': 'HIT',
+389 verbose headers   'x-cache-hits': '1',
+389 verbose headers   'x-timer': 'S1490112137.937710,VS0,VE0',
+389 verbose headers   vary: 'Accept-Encoding' }
+390 silly get cb [ 200,
+390 silly get   { server: 'nginx/1.10.1',
+390 silly get     'content-type': 'application/json',
+390 silly get     'last-modified': 'Thu, 02 Mar 2017 07:54:28 GMT',
+390 silly get     etag: 'W/"58b7cfb4-d2f"',
+390 silly get     'content-encoding': 'gzip',
+390 silly get     'cache-control': 'max-age=300',
+390 silly get     'content-length': '859',
+390 silly get     'accept-ranges': 'bytes',
+390 silly get     date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+390 silly get     via: '1.1 varnish',
+390 silly get     age: '52',
+390 silly get     connection: 'keep-alive',
+390 silly get     'x-served-by': 'cache-ams4426-AMS',
+390 silly get     'x-cache': 'HIT',
+390 silly get     'x-cache-hits': '1',
+390 silly get     'x-timer': 'S1490112137.937710,VS0,VE0',
+390 silly get     vary: 'Accept-Encoding' } ]
+391 verbose get saving repl to /root/.npm/registry.npmjs.org/repl/.cache.json
+392 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+393 http 200 https://registry.npmjs.org/coffee-script
+394 verbose headers { server: 'nginx/1.10.1',
+394 verbose headers   'content-type': 'application/json',
+394 verbose headers   'last-modified': 'Fri, 10 Mar 2017 16:00:51 GMT',
+394 verbose headers   etag: 'W/"58c2cdb3-d217"',
+394 verbose headers   'content-encoding': 'gzip',
+394 verbose headers   'cache-control': 'max-age=300',
+394 verbose headers   'content-length': '7597',
+394 verbose headers   'accept-ranges': 'bytes',
+394 verbose headers   date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+394 verbose headers   via: '1.1 varnish',
+394 verbose headers   age: '273',
+394 verbose headers   connection: 'keep-alive',
+394 verbose headers   'x-served-by': 'cache-hhn1549-HHN',
+394 verbose headers   'x-cache': 'HIT',
+394 verbose headers   'x-cache-hits': '7',
+394 verbose headers   'x-timer': 'S1490112137.944815,VS0,VE0',
+394 verbose headers   vary: 'Accept-Encoding' }
+395 silly get cb [ 200,
+395 silly get   { server: 'nginx/1.10.1',
+395 silly get     'content-type': 'application/json',
+395 silly get     'last-modified': 'Fri, 10 Mar 2017 16:00:51 GMT',
+395 silly get     etag: 'W/"58c2cdb3-d217"',
+395 silly get     'content-encoding': 'gzip',
+395 silly get     'cache-control': 'max-age=300',
+395 silly get     'content-length': '7597',
+395 silly get     'accept-ranges': 'bytes',
+395 silly get     date: 'Tue, 21 Mar 2017 16:02:17 GMT',
+395 silly get     via: '1.1 varnish',
+395 silly get     age: '273',
+395 silly get     connection: 'keep-alive',
+395 silly get     'x-served-by': 'cache-hhn1549-HHN',
+395 silly get     'x-cache': 'HIT',
+395 silly get     'x-cache-hits': '7',
+395 silly get     'x-timer': 'S1490112137.944815,VS0,VE0',
+395 silly get     vary: 'Accept-Encoding' } ]
+396 verbose get saving coffee-script to /root/.npm/registry.npmjs.org/coffee-script/.cache.json
+397 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+398 silly mapToRegistry name repl
+399 silly mapToRegistry using default registry
+400 silly mapToRegistry registry https://registry.npmjs.org/
+401 silly mapToRegistry data Result {
+401 silly mapToRegistry   raw: 'repl',
+401 silly mapToRegistry   scope: null,
+401 silly mapToRegistry   name: 'repl',
+401 silly mapToRegistry   rawSpec: '',
+401 silly mapToRegistry   spec: 'latest',
+401 silly mapToRegistry   type: 'tag' }
+402 silly mapToRegistry uri https://registry.npmjs.org/repl
+403 verbose addRemoteTarball https://registry.npmjs.org/repl/-/repl-0.1.3.tgz not in flight; adding
+404 verbose addRemoteTarball [ 'https://registry.npmjs.org/repl/-/repl-0.1.3.tgz',
+404 verbose addRemoteTarball   '2f05d42b0c88b43d05ccbda10ed14aeff5699b60' ]
+405 info retry fetch attempt 1 at 4:02:18 PM
+406 info attempt registry request try #1 at 4:02:18 PM
+407 http fetch GET https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+408 silly mapToRegistry name coffee-script
+409 silly mapToRegistry using default registry
+410 silly mapToRegistry registry https://registry.npmjs.org/
+411 silly mapToRegistry data Result {
+411 silly mapToRegistry   raw: 'coffee-script',
+411 silly mapToRegistry   scope: null,
+411 silly mapToRegistry   name: 'coffee-script',
+411 silly mapToRegistry   rawSpec: '',
+411 silly mapToRegistry   spec: 'latest',
+411 silly mapToRegistry   type: 'tag' }
+412 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+413 verbose addRemoteTarball https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz not in flight; adding
+414 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz',
+414 verbose addRemoteTarball   '150d6b4cb522894369efed6a2101c20bc7f4a4f4' ]
+415 info retry fetch attempt 1 at 4:02:18 PM
+416 info attempt registry request try #1 at 4:02:18 PM
+417 http fetch GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+418 http fetch 200 https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+419 silly fetchAndShaCheck shasum 2f05d42b0c88b43d05ccbda10ed14aeff5699b60
+420 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/repl/-/repl-0.1.3.tgz not in flight; adding
+421 verbose addTmpTarball already have metadata; skipping unpack for repl@0.1.3
+422 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+423 silly cache afterAdd repl@0.1.3
+424 verbose afterAdd /root/.npm/repl/0.1.3/package/package.json not in flight; writing
+425 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+426 verbose afterAdd /root/.npm/repl/0.1.3/package/package.json written
+427 http fetch 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz
+428 http 304 https://registry.npmjs.org/bindings
+429 verbose headers { date: 'Tue, 21 Mar 2017 16:02:18 GMT',
+429 verbose headers   via: '1.1 varnish',
+429 verbose headers   'cache-control': 'max-age=300',
+429 verbose headers   etag: 'W/"580645d3-46f7"',
+429 verbose headers   age: '163',
+429 verbose headers   connection: 'keep-alive',
+429 verbose headers   'x-served-by': 'cache-ams4145-AMS',
+429 verbose headers   'x-cache': 'HIT',
+429 verbose headers   'x-cache-hits': '1',
+429 verbose headers   'x-timer': 'S1490112138.085316,VS0,VE0',
+429 verbose headers   vary: 'Accept-Encoding' }
+430 silly get cb [ 304,
+430 silly get   { date: 'Tue, 21 Mar 2017 16:02:18 GMT',
+430 silly get     via: '1.1 varnish',
+430 silly get     'cache-control': 'max-age=300',
+430 silly get     etag: 'W/"580645d3-46f7"',
+430 silly get     age: '163',
+430 silly get     connection: 'keep-alive',
+430 silly get     'x-served-by': 'cache-ams4145-AMS',
+430 silly get     'x-cache': 'HIT',
+430 silly get     'x-cache-hits': '1',
+430 silly get     'x-timer': 'S1490112138.085316,VS0,VE0',
+430 silly get     vary: 'Accept-Encoding' } ]
+431 verbose etag https://registry.npmjs.org/bindings from cache
+432 verbose get saving bindings to /root/.npm/registry.npmjs.org/bindings/.cache.json
+433 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+434 silly addNameRange number 2 { name: 'bindings', range: '>=1.1.0 <1.2.0', hasData: true }
+435 silly addNameRange versions [ 'bindings',
+435 silly addNameRange   [ '0.0.1',
+435 silly addNameRange     '0.1.0',
+435 silly addNameRange     '0.1.1',
+435 silly addNameRange     '0.2.0',
+435 silly addNameRange     '0.2.1',
+435 silly addNameRange     '0.2.2',
+435 silly addNameRange     '0.2.3',
+435 silly addNameRange     '0.2.4',
+435 silly addNameRange     '0.3.0',
+435 silly addNameRange     '0.4.0',
+435 silly addNameRange     '1.0.0',
+435 silly addNameRange     '1.1.0',
+435 silly addNameRange     '1.1.1',
+435 silly addNameRange     '1.2.0',
+435 silly addNameRange     '1.2.1' ] ]
+436 silly addNamed bindings@1.1.1
+437 verbose addNamed "1.1.1" is a plain semver version for bindings
+438 http fetch 200 https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz
+439 silly mapToRegistry name bindings
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry data Result {
+442 silly mapToRegistry   raw: 'bindings',
+442 silly mapToRegistry   scope: null,
+442 silly mapToRegistry   name: 'bindings',
+442 silly mapToRegistry   rawSpec: '',
+442 silly mapToRegistry   spec: 'latest',
+442 silly mapToRegistry   type: 'tag' }
+443 silly mapToRegistry uri https://registry.npmjs.org/bindings
+444 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz not in flight; adding
+445 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz',
+445 verbose addRemoteTarball   '951f7ae010302ffc50b265b124032017ed2bf6f3' ]
+446 info retry fetch attempt 1 at 4:02:18 PM
+447 info attempt registry request try #1 at 4:02:18 PM
+448 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+449 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz
+450 silly fetchAndShaCheck shasum 951f7ae010302ffc50b265b124032017ed2bf6f3
+451 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/bindings/-/bindings-1.1.1.tgz not in flight; adding
+452 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.1.1
+453 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+454 silly fetchAndShaCheck shasum 150d6b4cb522894369efed6a2101c20bc7f4a4f4
+455 silly fetchAndShaCheck shasum e8da6241aa06f64df2473bb2590b8c17c84c3c7e
+456 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz not in flight; adding
+457 verbose addTmpTarball already have metadata; skipping unpack for coffee-script@1.3.3
+458 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+459 verbose addTmpTarball /tmp/npm-16341-49a4f7bd/registry.npmjs.org/underscore/-/underscore-1.2.4.tgz not in flight; adding
+460 verbose addTmpTarball already have metadata; skipping unpack for underscore@1.2.4
+461 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+462 silly cache afterAdd bindings@1.1.1
+463 verbose afterAdd /root/.npm/bindings/1.1.1/package/package.json not in flight; writing
+464 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+465 verbose afterAdd /root/.npm/bindings/1.1.1/package/package.json written
+466 silly cache afterAdd underscore@1.2.4
+467 verbose afterAdd /root/.npm/underscore/1.2.4/package/package.json not in flight; writing
+468 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+469 silly cache afterAdd coffee-script@1.3.3
+470 verbose afterAdd /root/.npm/coffee-script/1.3.3/package/package.json not in flight; writing
+471 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+472 verbose afterAdd /root/.npm/underscore/1.2.4/package/package.json written
+473 verbose afterAdd /root/.npm/coffee-script/1.3.3/package/package.json written
+474 silly install resolved [ { name: 'repl',
+474 silly install resolved     author: { name: 'Firejune', url: 'http://firejune.com/' },
+474 silly install resolved     version: '0.1.3',
+474 silly install resolved     description: 'A simple fast template libray.',
+474 silly install resolved     homepage: 'http://github.com/firejune/repl',
+474 silly install resolved     keywords: [ 'template', 'engine', 'repl' ],
+474 silly install resolved     main: 'lib/template',
+474 silly install resolved     directories: { lib: 'lib' },
+474 silly install resolved     repository: { type: 'git', url: 'git://github.com/firejune/repl.git' },
+474 silly install resolved     licenses: [ [Object] ],
+474 silly install resolved     bugs: { url: 'http://github.com/firejune/repl/issues' },
+474 silly install resolved     engines: { node: '>= 0.4.0' },
+474 silly install resolved     _npmUser: { name: 'firejune', email: 'to@firejune.com' },
+474 silly install resolved     _id: 'repl@0.1.3',
+474 silly install resolved     dependencies: {},
+474 silly install resolved     devDependencies: {},
+474 silly install resolved     _engineSupported: true,
+474 silly install resolved     _npmVersion: '1.0.94',
+474 silly install resolved     _nodeVersion: 'v0.4.12',
+474 silly install resolved     _defaultsLoaded: true,
+474 silly install resolved     dist:
+474 silly install resolved      { shasum: '2f05d42b0c88b43d05ccbda10ed14aeff5699b60',
+474 silly install resolved        tarball: 'https://registry.npmjs.org/repl/-/repl-0.1.3.tgz' },
+474 silly install resolved     maintainers: [ [Object] ],
+474 silly install resolved     _shasum: '2f05d42b0c88b43d05ccbda10ed14aeff5699b60',
+474 silly install resolved     _resolved: 'https://registry.npmjs.org/repl/-/repl-0.1.3.tgz',
+474 silly install resolved     _from: 'repl@0.1.3' },
+474 silly install resolved   { name: 'bindings',
+474 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+474 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+474 silly install resolved     version: '1.1.1',
+474 silly install resolved     author:
+474 silly install resolved      { name: 'Nathan Rajlich',
+474 silly install resolved        email: 'nathan@tootallnate.net',
+474 silly install resolved        url: 'http://tootallnate.net' },
+474 silly install resolved     repository:
+474 silly install resolved      { type: 'git',
+474 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+474 silly install resolved     main: './bindings.js',
+474 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+474 silly install resolved     _id: 'bindings@1.1.1',
+474 silly install resolved     dist:
+474 silly install resolved      { shasum: '951f7ae010302ffc50b265b124032017ed2bf6f3',
+474 silly install resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz' },
+474 silly install resolved     _from: 'bindings@>=1.1.0 <1.2.0',
+474 silly install resolved     _npmVersion: '1.3.2',
+474 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+474 silly install resolved     maintainers: [ [Object], [Object] ],
+474 silly install resolved     directories: {},
+474 silly install resolved     _shasum: '951f7ae010302ffc50b265b124032017ed2bf6f3',
+474 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.1.1.tgz' },
+474 silly install resolved   { name: 'underscore',
+474 silly install resolved     description: 'JavaScript\'s functional programming helper library.',
+474 silly install resolved     homepage: 'http://documentcloud.github.com/underscore/',
+474 silly install resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+474 silly install resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+474 silly install resolved     contributors: [],
+474 silly install resolved     repository:
+474 silly install resolved      { type: 'git',
+474 silly install resolved        url: 'git://github.com/documentcloud/underscore.git' },
+474 silly install resolved     main: 'underscore.js',
+474 silly install resolved     version: '1.2.4',
+474 silly install resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+474 silly install resolved     _id: 'underscore@1.2.4',
+474 silly install resolved     dependencies: {},
+474 silly install resolved     devDependencies: {},
+474 silly install resolved     engines: { node: '*' },
+474 silly install resolved     _engineSupported: true,
+474 silly install resolved     _npmVersion: '1.0.104',
+474 silly install resolved     _nodeVersion: 'v0.6.6',
+474 silly install resolved     _defaultsLoaded: true,
+474 silly install resolved     dist:
+474 silly install resolved      { shasum: 'e8da6241aa06f64df2473bb2590b8c17c84c3c7e',
+474 silly install resolved        tarball: 'https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz' },
+474 silly install resolved     maintainers: [ [Object], [Object] ],
+474 silly install resolved     directories: {},
+474 silly install resolved     _shasum: 'e8da6241aa06f64df2473bb2590b8c17c84c3c7e',
+474 silly install resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.2.4.tgz',
+474 silly install resolved     _from: 'underscore@1.2.4' },
+474 silly install resolved   { name: 'coffee-script',
+474 silly install resolved     description: 'Unfancy JavaScript',
+474 silly install resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+474 silly install resolved     author: { name: 'Jeremy Ashkenas' },
+474 silly install resolved     version: '1.3.3',
+474 silly install resolved     licenses: [ [Object] ],
+474 silly install resolved     engines: { node: '>=0.4.0' },
+474 silly install resolved     directories: { lib: './lib/coffee-script' },
+474 silly install resolved     main: './lib/coffee-script/coffee-script',
+474 silly install resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+474 silly install resolved     homepage: 'http://coffeescript.org',
+474 silly install resolved     bugs: { name: 'https://github.com/jashkenas/coffee-script/issues' },
+474 silly install resolved     repository:
+474 silly install resolved      { type: 'git',
+474 silly install resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+474 silly install resolved     devDependencies: { 'uglify-js': '>=1.0.0', jison: '>=0.2.0' },
+474 silly install resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+474 silly install resolved     _id: 'coffee-script@1.3.3',
+474 silly install resolved     dependencies: {},
+474 silly install resolved     optionalDependencies: {},
+474 silly install resolved     _engineSupported: true,
+474 silly install resolved     _npmVersion: '1.1.18',
+474 silly install resolved     _nodeVersion: 'v0.6.16',
+474 silly install resolved     _defaultsLoaded: true,
+474 silly install resolved     dist:
+474 silly install resolved      { shasum: '150d6b4cb522894369efed6a2101c20bc7f4a4f4',
+474 silly install resolved        tarball: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz' },
+474 silly install resolved     maintainers: [ [Object] ],
+474 silly install resolved     _shasum: '150d6b4cb522894369efed6a2101c20bc7f4a4f4',
+474 silly install resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.3.3.tgz',
+474 silly install resolved     _from: 'coffee-script@1.3.3' } ]
+475 info install repl@0.1.3 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+476 info install bindings@1.1.1 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+477 info install underscore@1.2.4 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+478 info install coffee-script@1.3.3 into /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+479 info installOne repl@0.1.3
+480 verbose installOne of repl to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c not in flight; installing
+481 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+482 info installOne bindings@1.1.1
+483 verbose installOne of bindings to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c not in flight; installing
+484 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+485 info installOne underscore@1.2.4
+486 verbose installOne of underscore to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c not in flight; installing
+487 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+488 info installOne coffee-script@1.3.3
+489 verbose installOne of coffee-script to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c not in flight; installing
+490 verbose correctMkdir /root/.npm/_locks correctMkdir not in flight; initializing
+491 verbose lock using /root/.npm/_locks/repl-20d07bd08fbab4e5.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+492 verbose lock using /root/.npm/_locks/bindings-a8277bb4766a7925.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+493 verbose lock using /root/.npm/_locks/underscore-67917644a544968f.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+494 verbose lock using /root/.npm/_locks/coffee-script-895cab54522e39f2.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+495 silly install write writing repl 0.1.3 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+496 silly install write writing bindings 1.1.1 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+497 silly install write writing underscore 1.2.4 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+498 silly install write writing coffee-script 1.3.3 to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+499 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+500 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+501 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+502 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+503 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl is being purged from base /home/pi/.node-red
+504 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+505 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings is being purged from base /home/pi/.node-red
+506 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+507 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore is being purged from base /home/pi/.node-red
+508 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+509 verbose tar unpack /root/.npm/repl/0.1.3/package.tgz
+510 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+511 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl is being purged
+512 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+513 verbose tar unpack /root/.npm/bindings/1.1.1/package.tgz
+514 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+515 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings is being purged
+516 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+517 verbose tar unpack /root/.npm/underscore/1.2.4/package.tgz
+518 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+519 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore is being purged
+520 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+521 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script is being purged from base /home/pi/.node-red
+522 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+523 silly gunzTarPerm modes [ '755', '644' ]
+524 silly gunzTarPerm modes [ '755', '644' ]
+525 silly gunzTarPerm modes [ '755', '644' ]
+526 verbose tar unpack /root/.npm/coffee-script/1.3.3/package.tgz
+527 verbose tar unpacking to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+528 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script is being purged
+529 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+530 silly gunzTarPerm modes [ '755', '644' ]
+531 silly gunzTarPerm extractEntry test.js
+532 silly gunzTarPerm extractEntry package.json
+533 silly gunzTarPerm extractEntry .gitignore
+534 silly gunzTarPerm extractEntry package.json
+535 silly gunzTarPerm extractEntry README.md
+536 silly gunzTarPerm extractEntry package.json
+537 silly gunzTarPerm extractEntry README.md
+538 silly gunzTarPerm extractEntry bindings.js
+539 silly gunzTarPerm extractEntry .npmignore
+540 silly gunzTarPerm extractEntry index.html
+541 silly gunzTarPerm extractEntry .npmignore
+542 silly gunzTarPerm extractEntry README
+543 silly gunzTarPerm extractEntry index.js
+544 silly gunzTarPerm extractEntry lib/repl.js
+545 silly gunzTarPerm extractEntry index.js
+546 silly gunzTarPerm extractEntry LICENSE
+547 silly gunzTarPerm extractEntry bin/cake
+548 silly gunzTarPerm extractEntry LICENSE
+549 silly gunzTarPerm extractEntry package.json
+550 silly gunzTarPerm extractEntry README
+551 silly gunzTarPerm extractEntry underscore-min.js
+552 silly gunzTarPerm extractEntry bin/coffee
+553 silly gunzTarPerm extractEntry CNAME
+554 silly gunzTarPerm extractEntry underscore.js
+555 silly gunzTarPerm extractEntry raw/underscore.psd
+556 silly gunzTarPerm extractEntry extras/jsl.conf
+557 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+558 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings/package.json
+559 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+560 info preinstall bindings@1.1.1
+561 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings/package.json
+562 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+563 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+564 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings/package.json
+565 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl/package.json
+566 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+567 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+568 info preinstall repl@0.1.3
+569 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl/package.json
+570 silly install resolved []
+571 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+572 info build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+573 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+574 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+575 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl/package.json
+576 info linkStuff bindings@1.1.1
+577 silly linkStuff bindings@1.1.1 has /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules as its parent node_modules
+578 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+579 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+580 verbose linkBins bindings@1.1.1
+581 verbose linkMans bindings@1.1.1
+582 verbose rebuildBundles bindings@1.1.1
+583 info install bindings@1.1.1
+584 info postinstall bindings@1.1.1
+585 verbose unlock done using /root/.npm/_locks/bindings-a8277bb4766a7925.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/bindings
+586 silly install resolved []
+587 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+588 info build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+589 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+590 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+591 info linkStuff repl@0.1.3
+592 silly linkStuff repl@0.1.3 has /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules as its parent node_modules
+593 verbose linkBins repl@0.1.3
+594 verbose linkMans repl@0.1.3
+595 verbose rebuildBundles repl@0.1.3
+596 info install repl@0.1.3
+597 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+598 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+599 silly gunzTarPerm extractEntry Rakefile
+600 info postinstall repl@0.1.3
+601 verbose unlock done using /root/.npm/_locks/repl-20d07bd08fbab4e5.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/repl
+602 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore/package.json
+603 info preinstall underscore@1.2.4
+604 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore/package.json
+605 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore/package.json
+606 silly install resolved []
+607 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+608 info build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+609 info linkStuff underscore@1.2.4
+610 silly linkStuff underscore@1.2.4 has /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules as its parent node_modules
+611 verbose linkBins underscore@1.2.4
+612 verbose linkMans underscore@1.2.4
+613 verbose rebuildBundles underscore@1.2.4
+614 info install underscore@1.2.4
+615 info postinstall underscore@1.2.4
+616 verbose unlock done using /root/.npm/_locks/underscore-67917644a544968f.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/underscore
+617 verbose write writing to /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script/package.json
+618 info preinstall coffee-script@1.3.3
+619 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script/package.json
+620 verbose readDependencies loading dependencies from /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script/package.json
+621 silly install resolved []
+622 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+623 info build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+624 info linkStuff coffee-script@1.3.3
+625 silly linkStuff coffee-script@1.3.3 has /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules as its parent node_modules
+626 verbose linkBins coffee-script@1.3.3
+627 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+627 verbose link bins   '/home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/.bin',
+627 verbose link bins   false ]
+628 verbose linkMans coffee-script@1.3.3
+629 verbose rebuildBundles coffee-script@1.3.3
+630 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/.bin/coffee is being purged
+631 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/.bin/coffee
+632 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/.bin/cake is being purged
+633 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/.bin/cake
+634 info install coffee-script@1.3.3
+635 info postinstall coffee-script@1.3.3
+636 verbose unlock done using /root/.npm/_locks/coffee-script-895cab54522e39f2.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c/node_modules/coffee-script
+637 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+638 info build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+639 info linkStuff i2c@0.1.8
+640 silly linkStuff i2c@0.1.8 has /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules as its parent node_modules
+641 verbose linkBins i2c@0.1.8
+642 verbose linkMans i2c@0.1.8
+643 verbose rebuildBundles i2c@0.1.8
+644 verbose rebuildBundles [ '.bin', 'bindings', 'coffee-script', 'repl', 'underscore' ]
+645 info install i2c@0.1.8
+646 verbose unsafe-perm in lifecycle false
+647 info i2c@0.1.8 Failed to exec install script
+648 verbose unlock done using /root/.npm/_locks/i2c-8a95a095e67f3e08.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+649 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+650 verbose unlock done using /root/.npm/_locks/bmp085-66caf4e8a875c222.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+651 verbose about to build /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+652 verbose unlock done using /root/.npm/_locks/node-red-contrib-bmp085-c10ac6e0fc4d700e.lock for /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+653 verbose stack Error: i2c@0.1.8 install: `node-gyp rebuild`
+653 verbose stack Exit status 1
+653 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+653 verbose stack     at emitTwo (events.js:87:13)
+653 verbose stack     at EventEmitter.emit (events.js:172:7)
+653 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+653 verbose stack     at emitTwo (events.js:87:13)
+653 verbose stack     at ChildProcess.emit (events.js:172:7)
+653 verbose stack     at maybeClose (internal/child_process.js:854:16)
+653 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+654 verbose pkgid i2c@0.1.8
+655 verbose cwd /home/pi/.node-red
+656 error Linux 4.4.34-v7+
+657 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "node-red-contrib-bmp085"
+658 error node v4.7.3
+659 error npm  v2.15.11
+660 error code ELIFECYCLE
+661 error i2c@0.1.8 install: `node-gyp rebuild`
+661 error Exit status 1
+662 error Failed at the i2c@0.1.8 install script 'node-gyp rebuild'.
+662 error This is most likely a problem with the i2c package,
+662 error not with npm itself.
+662 error Tell the author that this fails on your system:
+662 error     node-gyp rebuild
+662 error You can get information on how to open an issue for this project with:
+662 error     npm bugs i2c
+662 error Or if that isn't available, you can get their info via:
+662 error
+662 error     npm owner ls i2c
+662 error There is likely additional logging output above.
+663 verbose exit [ 1, true ]
+664 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+665 info preuninstall i2c@0.1.8
+666 info uninstall i2c@0.1.8
+667 verbose unbuild rmStuff i2c@0.1.8 from /home/pi/.node-red/node_modules
+668 verbose unbuild rmStuff in /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules
+669 info postuninstall i2c@0.1.8
+670 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c is being purged from base /home/pi/.node-red
+671 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+672 silly vacuum-fs purging /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules/i2c
+673 silly vacuum-fs quitting because other entries in /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085/node_modules
+674 verbose unbuild node_modules/node-red-contrib-bmp085/node_modules/bmp085
+675 info preuninstall bmp085@0.3.2
+676 info uninstall bmp085@0.3.2
+677 verbose unbuild rmStuff bmp085@0.3.2 from /home/pi/.node-red/node_modules
+678 verbose unbuild rmStuff in /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules
+679 info postuninstall bmp085@0.3.2
+680 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085 is being purged from base /home/pi/.node-red
+681 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+682 silly vacuum-fs purging /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules/bmp085
+683 silly vacuum-fs removing /home/pi/.node-red/node_modules/node-red-contrib-bmp085/node_modules
+684 silly vacuum-fs quitting because other entries in /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+685 verbose unbuild node_modules/node-red-contrib-bmp085
+686 info preuninstall node-red-contrib-bmp085@0.1.6
+687 info uninstall node-red-contrib-bmp085@0.1.6
+688 verbose unbuild rmStuff node-red-contrib-bmp085@0.1.6 from /home/pi/.node-red/node_modules
+689 info postuninstall node-red-contrib-bmp085@0.1.6
+690 silly gentlyRm /home/pi/.node-red/node_modules/node-red-contrib-bmp085 is being purged from base /home/pi/.node-red
+691 verbose gentlyRm don't care about contents; nuking /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+692 silly vacuum-fs purging /home/pi/.node-red/node_modules/node-red-contrib-bmp085
+693 silly vacuum-fs quitting because other entries in /home/pi/.node-red/node_modules
